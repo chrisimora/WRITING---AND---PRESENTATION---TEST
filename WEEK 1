@@ -1,0 +1,73 @@
+# Day 1
+
+# Unix Command Line dan Git
+
+Biasanya kita mengakses *file* sistem dengan membuka aplikasi berbasis GUI yang dinamakan **File Explorer** jika kamu menggunakan sistem operasi Windows. Ternyata ada cara lain untuk mengakses *file* sistem tersebut yaitu dengan command-line interface (CLI), dengan CLI kita bisa mengakses file sistem hanya dengan mengetikkan perintah atau teks
+
+## Apa itu CLI dan Shell
+
+- Shell adalah program yang digunakan untuk berkomunikasi atau memerintah sistem
+- CLI adalah jenis shell yang berbasis teks
+
+## Penggunaan Git Bash
+
+- Unduh Git Bash melalui tautan [berikut ini](https://git-scm.com/downloads)
+- Kemudian instal di PC kamu
+
+## Perintah untuk Git Bash
+
+### Perintah Navigasi
+
+- pwd, digunakan untuk melihat *current working directory*
+- ls, digunakan untuk melihat daftar *file* yang ada di sebuah direktori
+- cd <direktori>, digunakan untuk berpindah direktori
+
+### Perintah Membuat *File* & Direktori
+
+- touch, digunakan untuk membuat sebuah *file*
+- mkdir, digunakan untuk membuat sebuah direktori
+
+### Perintah Melihat Isi *File*
+
+- head, digunakan untuk melihat beberapa *line* awal dari sebuah *file* teks
+- tail, digunakan untuk melihat beberapa *line* akhir dari sebuah *file* teks
+- cat, digunakan untuk melihat isi sebuah *file*
+
+### Perintah Menyalin, Memindahkan, dan Menghapus File & Direktori
+
+- cp, digunakan untuk menyalin *file* atau direktori
+- mv, digunakan untuk memindahkan *file* atau direktori, bisa digunakan untuk *rename*
+- rm, digunakan untuk menghapus file atau direktori
+
+## Apa itu Git
+
+- Git adalah perangkat lunak *open-source* yang digunakan sebagai *version control* (kontrol versi)
+- Git dapat  melacak perubahan dalam sekumpulan *file* oleh karena itu Git banyak digunakan oleh *programmer* untuk berkolaborasi dalam mengembangkan perangkat lunak
+- Git ditemukan pada 2005 oleh [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
+- Dalam Git, kita akan mengenal repositori atau sering disingkat repo. Repo adalah sebuah folder yang bersisi *source code* (kode sumber)
+- Terdapat 4 fundamental dalam Git Workflow
+    - *Working Directory*
+    - *Staging Area*
+    - *Local Repository*
+    - *Remote Repository*
+- Jika melihat sebuah *file* dalam w*orking directory*, *file* tersebut bisa berada dalam tiga kemungkinan
+    - File tersebut bisa di-*staged*, yang berarti *file* yang memiliki perubahan, ditandai untuk di-*commit* ke *local repository* (repositori lokal) tetapi belum di-*commit*.
+    - File tersebut bisa dimodifikasi, yang berarti *file* memiliki perubahan belum disimpan di repositori lokal.
+    - Filter di-*commit, y*ang berarti bahwa perubahan yang dibuat pada *file* tersebut disimpan dengan aman di *local repository* (repositori lokal).
+
+## Perintah Pada Git
+
+- git config, digunakan untuk mengatur nama penulis dan alamat email untuk digunakan dengan komit.
+- git init, digunakan untuk memulai repositori baru.
+- git add, digunakan untuk menambahkan file yang ada di *working directory* ke *staging area*
+- git commit, digunakan untuk menambahkan semua file yang di-*staged* ke *local repository* (repositori lokal).
+- git push, digunakan untuk menambahkan semua file yang di-*commit* di repositori lokal ke *remote repository*. Sehingga di *remote repository*, semua *file* dan perubahannya akan terlihat oleh siapa saja yang memiliki akses ke *remote repository* tersebut.
+- git fetch, digunakan untuk mendapatkan *file* dari *remote repository* ke repositori lokal, tetapi tidak ke dalam *working directory*.
+- git merge, digunakan menggabungkan *branch* lain ke dalam *branch* saat ini.
+- git pull, digunakan untuk mendapatkan *file* dari *remote repository* langsung ke *working directory*
+- git remote, digunakan untuk menghubungkan *local repository* (repositori lokal) dengan *remote repository*
+- git status, digunakan untuk menampilkan semua *file* yang harus di-*commit*
+- git log, digunakan melihat histori perubahan yang telah dilakukan, jadi semua *commit* akan tampil di sini
+
+## Sekian dan Terima Kasih
+
