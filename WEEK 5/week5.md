@@ -4,27 +4,27 @@ Web server adalah software yang berfungsi menerima dan merespons *request* dari 
 
 ## Software Architecture
 
-![Untitled](week5/Untitled.png)
+![Untitled](WEEK 5/Untitled.png)
 
 ## Macam - macam software architecture
 
 ### Traditional HTML, CSS, dan JS
 
-![Untitled](week5/Untitled%201.png)
+![Untitled](WEEK 5/Untitled%201.png)
 
 ### Client-Side Renderer
 
-![Untitled](week5/Untitled%202.png)
+![Untitled](WEEK 5/Untitled%202.png)
 
 ### Server-Side Rendering
 
-![Untitled](week5/Untitled%203.png)
+![Untitled](WEEK 5/Untitled%203.png)
 
 ## API
 
 API adalah *interface* yang bisa membuat sebuah sistem saling berkomunikasi
 
-![Untitled](week5/Untitled%204.png)
+![Untitled](WEEK 5/Untitled%204.png)
 
 ## Apa itu REST
 
@@ -59,7 +59,7 @@ Status Code
 
 Node JS berfungsi untuk mengeksekusi kode JavaScript di luar *browser*
 
-![Untitled](week5/Untitled%205.png)
+![Untitled](WEEK 5/Untitled%205.png)
 
 ## Built-In Module
 
@@ -100,11 +100,11 @@ Express adalah framework aplikasi web Node.js yang minimal dan fleksibel yang me
 
 ### Instalasi Express JS
 
-![Untitled](week5/Untitled%206.png)
+![Untitled](WEEK 5/Untitled%206.png)
 
 ### Hello World, di Express JS
 
-![Untitled](week5/Untitled%207.png)
+![Untitled](WEEK 5/Untitled%207.png)
 
 # Database Design
 
