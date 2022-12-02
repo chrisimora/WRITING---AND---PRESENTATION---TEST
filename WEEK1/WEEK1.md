@@ -71,6 +71,6 @@ Biasanya kita mengakses *file* sistem dengan membuka aplikasi berbasis GUI yang 
 
 ## Sekian dan Terima Kasih
 
-Andrian Putra Ramadan
+Christian Galileo Simamora
 
 Medan, 28 November 2022
